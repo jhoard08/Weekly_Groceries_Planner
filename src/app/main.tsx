@@ -1,10 +1,15 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+
 import App from './App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.querySelector('#root')
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement!);
+
+root.render(
+    <StrictMode>
+        <App />
+    </StrictMode>
 );
