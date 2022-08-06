@@ -1,6 +1,8 @@
-import { IShared } from '../../../lib/constants/config';
+interface IProps {
+    children: React.ReactNode;
+}
 
-const Sidebar: React.FC<IShared> = ({ children }) => {
+const Sidebar: React.FC<IProps> = ({ children }) => {
     return <div>{children}</div>;
 };
 
