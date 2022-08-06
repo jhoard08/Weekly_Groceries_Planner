@@ -1,9 +1,6 @@
-interface IProps {
-    className: string;
-    children: any;
-}
+import { IShared } from '../../../lib/constants/config';
 
-const Container: React.FC<IProps> = ({ className, children }) => {
+const Container: React.FC<IShared> = ({ className, children }) => {
     return <div className={className}>{children}</div>;
 };
 

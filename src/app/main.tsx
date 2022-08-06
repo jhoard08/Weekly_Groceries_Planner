@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import Providers from './Providers';
 
 import App from './App';
 
@@ -9,6 +10,8 @@ const root = createRoot(rootElement!);
 
 root.render(
     <StrictMode>
-        <App />
+        <Providers>
+            <App />
+        </Providers>
     </StrictMode>
 );
