@@ -2,7 +2,7 @@
 
 > Quickly bootstrap a new project with Vite Boilerplate.
 
-This boilerplate contains all the tools you need to build a modern web app with TypeScript, React, Vite, Storybook and Express.  
+This boilerplate contains all the tools you need to build a modern web app with TypeScript, React, Vite, and Express.  
 You can use it to quickly bootstrap your project.
 
 ESLint, stylelint, prettier, husky and lintstaged are configured to give you a solid development experience.
@@ -29,14 +29,12 @@ The default PORTS are:
 
 - `3001` for the server
 - `3000` for the client
-- `6006` for the storybook
 
 If you don't like to call all scripts at once, you can also run:
 
 ```shell
 npm run server:dev
 npm run client:dev
-npm run storybook
 ```
 
 You can configure the server port by setting the `PORT` environment variable. Creating a `.env` file is supported. You can copy `.env.example` to `.env`.
@@ -62,7 +60,6 @@ npm start
 In production, you have a single server serving everything.
 
 `/api/*` is the API endpoint.  
-`/storybook` is the Storybook.  
 `/*` is the client.
 
 ## Tests
