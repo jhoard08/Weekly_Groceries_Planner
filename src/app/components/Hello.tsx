@@ -1,5 +1,4 @@
 import Container from './Container/Container';
-import React from 'react';
 
 const Hello: React.FC = () => {
     return (
