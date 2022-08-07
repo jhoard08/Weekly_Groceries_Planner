@@ -26,19 +26,19 @@ const App: React.FC = () => {
                     </Header>
                 </Container>
             </GridItem>
-            <GridItem pl="2" bg="pink.300" area={'sidebar'}>
+            <GridItem pl="2" bg="pink.300" area={'sidebar'} rounded={'4px'}>
                 <Container className="sidebar-container">
                     <Sidebar>
-                        <div>Hi, I'm the sidebar</div>
+                        <div>Hi, from the sidebar</div>
                     </Sidebar>
                 </Container>
             </GridItem>
-            <GridItem pl="2" bg="green.300" area={'main'}>
+            <GridItem pl="2" bg="green.300" area={'main'} rounded={'4px'}>
                 <Container className="main-container">
                     <Main></Main>
                 </Container>
             </GridItem>
-            <GridItem pl="2" bg="blue.300" area={'footer'}>
+            <GridItem pl="2" bg="blue.300" area={'footer'} rounded={'4px'}>
                 <Container className="footer-container">
                     <Footer className="footer">
                         <h4>Hi from Footer</h4>
