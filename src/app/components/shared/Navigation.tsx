@@ -18,7 +18,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 
-const Links = ['Dashboard', 'Projects', 'Team'];
+const Links = ['Dashboard', 'Recipes', 'Grocery List'];
 
 const Navigation = ({ children }: { children: ReactNode }) => (
     <Link
@@ -91,10 +91,10 @@ export default function withAction() {
                                 />
                             </MenuButton>
                             <MenuList>
-                                <MenuItem>Link 1</MenuItem>
-                                <MenuItem>Link 2</MenuItem>
+                                <MenuItem>Profile</MenuItem>
+                                <MenuItem>Settings</MenuItem>
                                 <MenuDivider />
-                                <MenuItem>Link 3</MenuItem>
+                                <MenuItem>Logout</MenuItem>
                             </MenuList>
                         </Menu>
                     </Flex>
